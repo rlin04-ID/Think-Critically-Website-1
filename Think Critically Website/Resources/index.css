@@ -1,0 +1,119 @@
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+}
+
+li {
+    width: auto; 
+    padding: 10px;
+    list-style-type: none;
+}
+
+li:hover {
+    background-color: rgb(118, 118, 118);
+}
+
+a {
+    text-decoration: none;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+/*body*/
+.main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+}
+
+.main div {
+    border: 1px solid black;
+}
+
+p {
+    text-align: center;
+    font-size: 50px;
+}
+
+.grid {
+    z-index: 100;
+}
+
+html {
+ background-image: url("thinking\ critically\ background\ .jpg");
+ background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 0;
+  position: fixed;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.site-header {
+  text-align: center;   /* centers the image */
+  margin-top: 20px;
+}
+
+
+.site-title img {
+  max-width: 600px; 
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+    display:block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.site-header {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ddd;
+  font-family: sans-serif;
+}
+
+/* Left */
+.header-left {
+  text-align: left;
+  font-weight: 600;
+}
+
+/* Center */
+.header-center {
+  text-align: center;
+}
+
+.header-center a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+/* Right */
+.header-right {
+  text-align: right;
+  font-weight: 600;
+}
+
+.header-btn {
+  padding: 6px 12px;
+  border: 1px solid black;
+  background: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.contribute {
+  font-weight: 600;
+  cursor: pointer;
+}
